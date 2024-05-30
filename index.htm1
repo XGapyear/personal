@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>林喆的个人网页</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .content {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            color: #444;
+            border-bottom: 2px solid #e4f4e4;
+            padding-bottom: 0.5rem;
+        }
+        .portfolio img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .contact a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>林喆的个人网页</h1>
+    </header>
+    <div class="content">
+        <section id="intro" class="section">
+            <h2>自我介绍</h2>
+            <p>我是林喆，普通的一个学生。你是否可以为我提供目标祝我成长。我不太喜欢产品设计，我希望自己是一名室内设计师。</p >
+        </section>
+        <section id="goal" class="section">
+            <h2>我的迷茫和目标</h2>
+            <p>在学习产品设计的过程中，我逐渐发现这并不是我真正的兴趣所在。我希望自己未来能够成为一名优秀的室内设计师，通过设计美丽的室内空间来实现自己的价值。</p >
+        </section>
+        <section id="portfolio" class="section">
+            <h2>我的作品</h2>
+            < img src="EF1D0FBD-F3F2-409E-8074-F9BFA96C93CF.jpeg" alt="林喆的作品">
+            <p>这是我的作品，展示了我在设计方面的一些思考和努力。</p >
+        </section>
+        <section id="contact" class="section">
+            <h2>联系方式</h2>
+            <p>你可以通过以下方式联系我：</p >
+            <p>电子邮件: < a href=" ">1268154620@example.com</ a></p >
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 林喆. 保留所有权利。</p >
+    </footer>
+</body>
+</html>
